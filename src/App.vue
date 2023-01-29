@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/email.png" width=" 150" height="150" />
+  <img alt="Vue logo" src="./assets/email.png" width=" 150" height="150" id="logo" />
   <HelloWorld msg="mamuroEmail" />
 </template>
 

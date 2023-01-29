@@ -8,6 +8,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #7d409e;
+  color: #9e4049;
   margin-top: 60px;
+}
+
+#logo {
+  margin: auto;
+}
+
+#app h1 {
+  font-family: fangsong;
+  font-weight: bold;
+}
+
+.card-header {
+  font-family: cursive;
+}
+
+#get-data {
+  border: aquamarine 3px dashed;
+}
+
+#get-data:active {
+  border: blueviolet 3px dashed;
+}
+
+#get-data:hover {
+  border: rgb(73, 32, 222) 3px dashed;
 }
