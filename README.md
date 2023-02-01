@@ -1,8 +1,9 @@
-#Fronted: email searching engine 
+## Frontend: email searching engine 
 
 tool to search and visualize Enron email data set using Vue.js and tailwind CSS.
 The Vite tool was used to build the vue project allowing to work with modules natively.
 
+## Install
 
 Ensure the following is installed:
 
