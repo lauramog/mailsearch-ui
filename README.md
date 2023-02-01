@@ -15,6 +15,9 @@ npm install -g @vue/cli@next
 vue upgrade next
 ```
 
+Then clone the repo locally: `git clone https://github.com/lauramog/mailsearch-ui.git`
+
+
 ## Run
 
 ```shell
