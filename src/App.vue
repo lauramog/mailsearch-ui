@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/email.png" width=" 150" height="150" id="logo" />
-  <HelloWorld msg="mamuroEmail" />
+  <InitialPage msg="mamuroEmail" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InitialPage from './components/InitialPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    InitialPage
   }
 }
 </script>

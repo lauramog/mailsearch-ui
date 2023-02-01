@@ -43,7 +43,7 @@
 const baseURL = "http://localhost:8081";
 
 export default {
-  name: 'HelloWorld',
+  name: 'InitialPage',
   props: {
     msg: String
   },
