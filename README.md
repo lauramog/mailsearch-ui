@@ -9,7 +9,7 @@ Ensure the following is installed:
 
 * [Node.js and npm are installed locally](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-you can install vue locally following those steps: 
+You can install vue locally following those steps: 
 ```shell
 npm install -g @vue/cli@next 
 vue upgrade next
@@ -17,7 +17,7 @@ vue upgrade next
 
 Then clone the repo locally: `git clone https://github.com/lauramog/mailsearch-ui.git`
 
-this tool  works togeter with  the api and the indexer built in go. you can find it (here)[https://github.com/lauramog/mailsearch-api] 
+This tool  works togeter with  the web server and the indexer both  built in go. you can find it [here](https://github.com/lauramog/mailsearch-api)
 
 
 ## Run
@@ -26,11 +26,11 @@ this tool  works togeter with  the api and the indexer built in go. you can find
 npm run dev
 ```
 
-if you want to make  changes in the html files
+If you want to make  changes in the html files
 ```shell
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
-run the Dev server at the URL given.
+Run the Dev server at the URL given.
 
 
