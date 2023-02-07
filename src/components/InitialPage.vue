@@ -49,24 +49,19 @@
 </template>
 
 <script>
-const baseURL = "http://localhost:8082";
-
+const baseURL = "http://localhost:8081";
 export default {
   name: 'InitialPage',
   props: {
     msg: String
   },
   data() {
-
     return {
       listItems: [],
       readActivated: false
-
-
     }
   },
   methods: {
-
     async getData() {
       const term = this.$refs.get_term.value;
       if (term !== "") {
@@ -77,15 +72,12 @@ export default {
         this.listItems = finalRes;
       }
     },
-
     activateReadMore() {
       this.readActivated = true;
     }
   },
-
   mounted() {
     this.getData()
   }
-
 }
 </script>
